@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  SpaceJunk: 0
 --- !u!1 &1502444336
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce4c61e3bc8341449c93469f17a89c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spacejunkSpawnRatePerSecond: 0.1
+  spacejunkSpawnRatePerSecond: 1
   SpaceJunk1: {fileID: 863036259945591292, guid: b071dee5ec5b07841bd800bfffbb6e12,
     type: 3}
   SpaceJunk2: {fileID: 7787756550861964200, guid: ef9bda8d441c95942bb2c44371f6fc08,
