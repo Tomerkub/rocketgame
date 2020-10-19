@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3722988468337088335}
   - component: {fileID: 3722988468337088334}
   - component: {fileID: 5545020111516267051}
-  - component: {fileID: 8025719756301461019}
+  - component: {fileID: 5933634630692637069}
   m_Layer: 0
   m_Name: Debris_big_3
   m_TagString: Untagged
@@ -96,8 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68c1d4f8234636947be10f976f8a0af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &8025719756301461019
-BoxCollider2D:
+--- !u!60 &5933634630692637069
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106,7 +106,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -119,6 +119,17 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.0859375, y: 0.171875}
+      - {x: 0.0390625, y: 0.21875}
+      - {x: -0.1796875, y: 0.21875}
+      - {x: -0.1953125, y: 0.125}
+      - {x: -0.25, y: 0.078125}
+      - {x: -0.25, y: -0.0625}
+      - {x: -0.140625, y: -0.1640625}
+      - {x: 0.0078125, y: -0.25}
+      - {x: 0.1796875, y: -0.25}
+      - {x: 0.203125, y: -0.234375}
+      - {x: 0.203125, y: -0.1015625}
+      - {x: 0.1171875, y: 0.0234375}

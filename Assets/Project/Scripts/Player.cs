@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
       //  transform.Translate(Input.GetAxis("Horizontal")*speed*-1*Time.deltaTime,0f,0f);
     }
     
-    void OnCollisionEnter (Collision collider)
+    void OnCollisionEnter2D (Collision2D collider)
     {
         Debug.Log("hit");
         if (collider.gameObject.GetComponent<SpaceJunk>() != null)

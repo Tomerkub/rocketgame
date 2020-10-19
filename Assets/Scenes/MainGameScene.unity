@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 505591664}
   - component: {fileID: 505591666}
   - component: {fileID: 505591667}
+  - component: {fileID: 505591668}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -239,6 +240,60 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &505591668
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505591663}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.16206364, y: 0.038894583}
+      - {x: 0.088138536, y: 0.041342057}
+      - {x: 0.019074619, y: 0.13043512}
+      - {x: -0.03814675, y: 0.13236281}
+      - {x: -0.09043992, y: 0.039532732}
+      - {x: -0.1584678, y: 0.034817886}
+      - {x: -0.16437441, y: 0.02054639}
+      - {x: -0.16851343, y: 0.0020278455}
+      - {x: -0.16419472, y: -0.016568018}
+      - {x: -0.14410804, y: -0.032374978}
+      - {x: -0.095983766, y: -0.034437276}
+      - {x: -0.09503447, y: -0.107538775}
+      - {x: -0.039721463, y: -0.13246761}
+      - {x: 0.04488278, y: -0.13146375}
+      - {x: 0.08278868, y: -0.10092306}
+      - {x: 0.08128615, y: -0.026932646}
+      - {x: 0.13068776, y: -0.029179288}
+      - {x: 0.16499375, y: -0.017536497}
+    - - {x: -0.02, y: -0.089999996}
+      - {x: 0.02, y: -0.099999994}
+      - {x: -0.03, y: -0.099999994}
+      - {x: -0.02, y: -0.099999994}
+    - - {x: -0.04, y: 0.06}
+      - {x: -0.02, y: 0.089999996}
+      - {x: 0.01, y: 0.08}
+      - {x: 0.03, y: 0.06}
+      - {x: 0.02, y: 0.049999997}
+      - {x: -0.03, y: 0.049999997}
+      - {x: -0.03, y: 0.06}
 --- !u!1 &1502444336
 GameObject:
   m_ObjectHideFlags: 0
