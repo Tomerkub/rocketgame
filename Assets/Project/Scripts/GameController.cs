@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public GameObject SpaceJunk2;
     public GameObject SpaceJunk3;
     private int spawner = 0;
+    private int edge;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,17 +27,17 @@ public class GameController : MonoBehaviour
             if (spawner==1)
             {
                 GameObject spaceJunk1 = Instantiate (SpaceJunk1);
-                spaceJunk1.GetComponent<SpaceJunk>().SetPosition(Random.Range(-5.8f,5.8f),Camera.main.transform.position.y-4f);
+                spaceJunk1.GetComponent<SpaceJunk>().SetPosition(Random.Range(-5.8f,5.8f),Camera.main.transform.position.y-5f);
             }
             if (spawner==2)
             {
                 GameObject spaceJunk2 = Instantiate (SpaceJunk2);
-                spaceJunk2.GetComponent<SpaceJunk>().SetPosition(Random.Range(-5.8f,5.8f),Camera.main.transform.position.y-4f);
+                spaceJunk2.GetComponent<SpaceJunk>().SetPosition(Random.Range(-5.8f,5.8f),Camera.main.transform.position.y-5f);
             }
             if (spawner==3)
             {
                 GameObject spaceJunk3 = Instantiate (SpaceJunk3);
-                spaceJunk3.GetComponent<SpaceJunk>().SetPosition(Random.Range(-5.8f,5.8f),Camera.main.transform.position.y-4f);
+                spaceJunk3.GetComponent<SpaceJunk>().SetPosition(Random.Range(-5.8f,5.8f),Camera.main.transform.position.y-5f);
             }
             timer = 0f;
         }

@@ -25,4 +25,14 @@ public class Player : MonoBehaviour
         }                                                 
       //  transform.Translate(Input.GetAxis("Horizontal")*speed*-1*Time.deltaTime,0f,0f);
     }
+    
+    void OnCollisionEnter (Collision collider)
+    {
+        Debug.Log("hit");
+        if (collider.gameObject.GetComponent<SpaceJunk>() != null)
+        {
+            //make more fuel here
+            Destroy(collider.gameObject);
+        }
+    }
 }
