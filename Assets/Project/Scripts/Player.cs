@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
     public float speed = 3f;
     public float SpaceJunk;
     private Rigidbody2D SelfRigid;
+    [Range(0f,100f)] public float SpaceJunkCollected = 0f;
     // Start is called before the first frame update
     void Start()
     {
